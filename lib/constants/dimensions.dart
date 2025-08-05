@@ -1,0 +1,11 @@
+// app_dimensions.dart
+
+import 'package:flutter/material.dart';
+
+class AppDimensions {
+  static double screenHeight(BuildContext context) =>
+      MediaQuery.of(context).size.height;
+
+  static double screenWidth(BuildContext context) =>
+      MediaQuery.of(context).size.width;
+}
